@@ -1100,6 +1100,20 @@
 			]
 		},
 		{
+			"name": "School of Sangromancy",
+			"shortName": "Sangromancy",
+			"source": "GHPH",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"page": 77,
+			"subclassFeatures": [
+				"School of Sangromancy|Wizard||Sangromancy|GHPH|77",
+				"Sanguine Vigor|Wizard||Sangromancy|GHPH|77",
+				"Blood For Blood|Wizard||Sangromancy|GHPH|77",
+				"Red Renewal|Wizard||Sangromancy|GHPH|77",
+			]
+		},
+		{
 			"name": "Mage of Lorehold (UA)",
 			"shortName": "Lorehold (UA)",
 			"source": "UA2021MagesOfStrixhaven",
@@ -2906,6 +2920,106 @@
 				"Moreover, if you take damage while your spellbook's mind is manifested, you can prevent all of that damage to you by using your reaction to dismiss the spectral mind, using its magic to save yourself. Then roll {@dice 3d6}. The spellbook temporarily loses spells of your choice that have a combined spell level equal to that roll or higher. For example, if the roll's total is 9, spells vanish from the book that have a combined level of at least 9, which could mean one 9th-level spell, three 3rd-level spells, or some other combination. If there aren't enough spells in the book to cover this cost, you drop to 0 hit points.",
 				"Until you finish {@dice 1d6} long rests, you are incapable of casting the lost spells, even if you find them on a scroll or in another spellbook. After you finish the required number of rests, the spells reappear in the spellbook.",
 				"Once you use this reaction, you can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "School of Sangromancy",
+			"source": "GHPH",
+			"page": 77,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Sangromancy",
+			"subclassSource": "GHPH",
+			"level": 2,
+			"entries": [
+				"You study an uncommon subschool of magic known as sangromancy or blood magic. Despite its dark reputation, there’s nothing inherently evil about the practice of sangromancy, though its demands on its ractitioners are gruesome. As a sangromancer, your chosen magic demands more than knowledge—it demands sacrifice as well. Other wizards may view you with skepticism or even outright hostility, but none can deny the potency of your art.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sangromancy Savant|Wizard||Sangromancy|GHPH|77"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Full-Blooded|Wizard||Sangromancy|GHPH|77"
+				}
+			]
+		},
+		{
+			"name": "Sangromancy Savant",
+			"source": "GHPH",
+			"page": 77,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Sangromancy",
+			"subclassSource": "GHPH",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2nd-level School of Sangromancy feature}",
+				"Beginning when you select this arcane tradition at 2nd level, all sangromancy spells are added to the wizard spell list for you. In addition, the gold and time you must spend to copy a sangromancy spell into your spellbook is halved.",
+				}
+			]
+		},
+		{
+			"name": "Full-Blooded",
+			"source": "GHPH",
+			"page": 77,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Sangromancy",
+			"subclassSource": "GHPH",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2nd-level School of Sangromancy feature}",
+				"Starting at 2nd level, you gain a pool of d12s that you can expend instead of a hit die when you cast sangromancy spells. The number of dice in the pool equals 1 + your wizard level",
+				"Your pool regains all expended dice when you finish a long rest.",
+				}
+			]
+		},
+		{
+			"name": "Sanguine Vigor",
+			"source": "GHPH",
+			"page": 77,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Sangromancy",
+			"subclassSource": "GHPH",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level School of Sangromancy feature}",
+				"Starting at 6th level, your hit point maximum increases by 6 and increases by 1 again whenever you gain a level in this class.",
+				"In addition, when you cast a sangromancy spell, you regain a number of hit points equal to the level of the spell.",
+			]
+		},
+		{
+			"name": "Blood for Blood",
+			"source": "GHPH",
+			"page": 77,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Sangromancy",
+			"subclassSource": "GHPH",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level School of Sangromancy feature}",
+				"At 10th level, when you deal damage to a creature with a spell you cast, you can expend and roll a hit die, or a d12 from your Full-Blooded feature, to add its result to the damage dealt to that creature.",
+			]
+		},
+		{
+			"name": "Red Renewal",
+			"source": "GHPH",
+			"page": 77,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Sangromancy",
+			"subclassSource": "GHPH",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level School of Sangromancy feature}",
+				"Starting at 14th level, when you finish a short rest, you can choose expended hit dice to recover. When you do, choose a number of expended hit dice equal to half your wizard level and regain them. You regain an equivalent number of dice from your Full Blooded feature. Once you use this feature, you can’t use it again until you finish a long rest.".
 			]
 		},
 		{
